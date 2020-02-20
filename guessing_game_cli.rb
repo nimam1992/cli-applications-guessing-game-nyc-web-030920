@@ -11,7 +11,7 @@ def user_input()
   gets.chomp
 end
 
-def number_generator()
+def run_guessing_game()
   random = random_num()
   prompt()
   if user_input() == random
