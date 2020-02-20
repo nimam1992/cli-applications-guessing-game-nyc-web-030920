@@ -6,3 +6,9 @@ end
 def prompt()
   puts 'Guess a number from 1 to 6'
 end
+
+def user_input()
+  gets.chomp
+end
+
+def number_generator()
