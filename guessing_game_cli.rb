@@ -3,4 +3,6 @@ def random_num()
   random_num
 end
 
-input = gets.chomp
+def prompt()
+  puts 'Guess a number from 1 to 6'
+end
