@@ -4,7 +4,7 @@ def random_num()
 end
 
 def user_input()
-  gets.to_i
+  gets.chomp
 end
 
 def run_guessing_game()
