@@ -4,7 +4,7 @@ def random_num()
 end
 
 def get_user_input()
-  gets.chomp
+  gets
 end
 
 get_user_input()
