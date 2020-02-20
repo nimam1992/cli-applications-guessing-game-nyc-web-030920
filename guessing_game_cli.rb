@@ -7,4 +7,4 @@ def get_user_input()
   gets.chomp
 end
 
-get_user_input
+get_user_input()
