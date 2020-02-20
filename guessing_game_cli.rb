@@ -20,5 +20,3 @@ def number_generator()
     puts "Sorry! The computer guessed #{random}."
   end
 end
-
-number_generator()
