@@ -14,8 +14,10 @@ end
 def number_generator()
   random = random_num()
   prompt()
-  if user_input == random
+  if user_input() == random
     puts 'You guessed the correct number!'
+  else
+    puts 'Sorry! The computer guessed #{}.
   end
 end
 
