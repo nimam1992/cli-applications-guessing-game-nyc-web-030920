@@ -4,7 +4,7 @@ def random_num()
 end
 
 def user_input()
-  gets.chomp
+  gets.chomp.to_i
 end
 
 def run_guessing_game()
@@ -12,7 +12,7 @@ def run_guessing_game()
   random = random_num()
   if user_number == random
     puts 'You guessed the correct number!'
-  elsif user_number == 'exit' && user_number.kind_of?(String)
+  elsif user_number == 'exit'
     puts 'Goodbye!'
   end
 end
