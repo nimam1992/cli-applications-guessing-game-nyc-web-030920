@@ -4,13 +4,13 @@ def random_num()
 end
 
 def user_input()
-  gets.chomp.to_i
+  gets.chomp
 end
 
 def run_guessing_game()
   user_number = user_input()
   random = random_num()
-  if user_number == random
+  if user_number.to_i == random
     puts 'You guessed the correct number!'
   elsif user_number == 'exit'
     puts 'Goodbye!'
