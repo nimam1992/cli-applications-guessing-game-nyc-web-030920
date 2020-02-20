@@ -14,6 +14,9 @@ end
 def number_generator()
   random = random_num()
   prompt()
+  if user_input == random
+    puts 'You guessed the correct number!'
+  end
 end
 
 number_generator()
