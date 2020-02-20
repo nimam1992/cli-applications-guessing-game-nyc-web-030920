@@ -8,7 +8,7 @@ def prompt()
 end
 
 def user_input()
-  gets.chomp
+  gets
 end
 
 def run_guessing_game()
