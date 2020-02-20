@@ -12,7 +12,7 @@ def run_guessing_game()
   random = random_num()
   if user_number == random
     puts 'You guessed the correct number!'
-  elsif user_number == exit && user_number.kind_of?(String)
+  elsif user_number == 'exit' && user_number.kind_of?(String)
     puts 'Goodbye!'
   end
 end
