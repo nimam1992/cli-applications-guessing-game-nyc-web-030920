@@ -13,7 +13,6 @@ end
 
 def run_guessing_game()
   random = random_num()
-  prompt()
   if user_input() == random
     puts 'You guessed the correct number!'
   else
