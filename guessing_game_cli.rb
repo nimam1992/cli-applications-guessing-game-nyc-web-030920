@@ -3,8 +3,4 @@ def random_num()
   random_num
 end
 
-def get_user_input()
-  gets
-end
-
-get_user_input()
+input = gets
