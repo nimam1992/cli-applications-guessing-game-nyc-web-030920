@@ -12,3 +12,8 @@ def user_input()
 end
 
 def number_generator()
+  random = random_num()
+  promt()
+end
+
+number_generator()
