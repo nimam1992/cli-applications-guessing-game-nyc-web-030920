@@ -1,5 +1,5 @@
 def random_num()
-  random_num = rand(1..6)
+  random_num = rand(6)+1
   random_num
 end
 
@@ -18,7 +18,7 @@ def run_guessing_game()
     puts 'You guessed the correct number!'
   elsif user_number != random
     puts "Sorry! The computer guessed #{random}."
-  elsif user_number == exit
+  elsif user_number = 'exit'
     puts 'Goobye!'
   end
 end
