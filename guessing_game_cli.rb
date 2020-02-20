@@ -13,7 +13,7 @@ end
 
 def number_generator()
   random = random_num()
-  promt()
+  prompt()
 end
 
 number_generator()
