@@ -14,7 +14,7 @@ def run_guessing_game()
     puts 'You guessed the correct number!'
   elsif user_number != random
     puts "Sorry! The computer guessed #{random}."
-  elsif user_number == 'exit' && user_number == string
+  elsif user_number == 'exit' && user_number.kind_of?(String)
     puts 'Goodbye!'
   end
 end
