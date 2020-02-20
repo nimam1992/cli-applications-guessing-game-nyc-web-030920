@@ -3,4 +3,4 @@ def random_num()
   random_num
 end
 
-input = gets hello
+input = gets 'hello'
