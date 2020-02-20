@@ -3,4 +3,8 @@ def random_num()
   random_num
 end
 
-puts random_num()
+def get_user_input()
+  gets.chomp
+end
+
+get_user_input
