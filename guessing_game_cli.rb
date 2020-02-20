@@ -14,7 +14,7 @@ end
 def run_guessing_game()
   user_number = user_input()
   random_num()
-  if user_number = random_num()
+  if user_number == random_num()
     puts 'You guessed the correct number!'
   else
     puts "Sorry! The computer guessed #{random}."
